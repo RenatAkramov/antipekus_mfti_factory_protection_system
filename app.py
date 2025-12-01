@@ -3,13 +3,13 @@ import httpx
 
 # === НАСТРОЙКИ ===
 COMPREFACE_BASE = "http://localhost:8000"  # CompreFace работает на этом ПК
-COMPREFACE_API_KEY = "8ee893cb-7253-46a3-b6f1-660f65129e02"
+COMPREFACE_API_KEY = "******"
 
 # Порог: чем выше, тем строже. Обычно 0.6-0.75 хорошая отправная точка.
 THRESHOLD = 0.8
 
 # Простой "секрет" чтобы случайные устройства в Wi-Fi не слали вам фотки.
-DEVICE_SHARED_KEY = "my_esp32_secret"
+DEVICE_SHARED_KEY = "*******"
 # ==================
 
 app = FastAPI()
